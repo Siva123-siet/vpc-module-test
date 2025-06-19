@@ -11,13 +11,9 @@ variable "database_subnet_cidrs" {
 }
 
 variable "project" {
-  default = {
-    Name = "roboshop"
-  }
+  default = "roboshop"
 }
 
 variable "environment" {
-  default = {
-    Name = "dev"
-  }
+  default = "dev"
 }
